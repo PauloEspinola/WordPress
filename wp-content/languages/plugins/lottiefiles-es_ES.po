@@ -1,0 +1,29 @@
+# Translation of Plugins - LottieFiles &#8211; Lottie block for Gutenberg - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - LottieFiles &#8211; Lottie block for Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-23 10:54:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - LottieFiles &#8211; Lottie block for Gutenberg - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://lottiefiles.com/"
+msgstr "https://lottiefiles.com/"
+
+#. Description of the plugin
+msgid "LottieFiles for WordPress is the easiest way to add Lottie animations to your WordPress website using the Gutenberg editor."
+msgstr "LottieFiles para WordPress es la forma más fácil de añadir animaciones de Lottie a tu web de WordPress utilizando el editor Gutenberg."
+
+#. Plugin URI of the plugin
+msgid "https://lottiefiles.com/plugins/wordpress"
+msgstr "https://lottiefiles.com/plugins/wordpress"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "LottieFiles"
+msgstr "LottieFiles"

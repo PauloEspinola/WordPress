@@ -1,0 +1,79 @@
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'averta_stdregular';
+  font-weight: normal;
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-regular-webfont.woff2) format('woff2');
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'averta_stdbold';
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-bold-webfont.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'averta_stdsemibold';
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-semibold-webfont.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'averta_stdextrabold';
+  src: url(https://static2.lottiefiles.com/fonts/avertastd-extrabold-webfont.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+.first-child-full-width > :first-child {
+  width: 100%;
+}
+
+.font-lf-bold {
+  font-family: 'averta_stdbold', sans-serif;
+  font-weight: bold;
+}
+
+.inline {
+  display: block !important;
+}
+
+
+/* Hack for tailwind form styles */
+@layer base {
+  [type='text'],
+  [type='email'],
+  [type='url'],
+  [type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='tel'],
+  [type='time'],
+  [type='week'],
+  [multiple],
+  textarea,
+  select {
+    width: 100% !important;
+    padding: 4px 8px !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    box-shadow: 0 0 0 transparen !important;
+    border-radius: 4px !important;
+    border: 1px solid #8c8f94 !important;
+    background-color: #fff !important;
+    color: #2c3338 !important;
+  }
+}
